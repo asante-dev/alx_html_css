@@ -105,7 +105,7 @@ nav ul li a:hover {
 .pros h2 {
   text-align: center;
   font-size: 30px;
-  color: #ffffff;
+  color: #ff00cc82;
   font-weight: 1;
   margin: -78px;
   padding: 70px;
@@ -121,7 +121,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 140px;
   margin-top: 90px;
-  color: #ffffff;
+  color: #ff00cc82;
   flex-wrap: wrap;
 
 }
@@ -144,7 +144,7 @@ nav ul li a:hover {
 
 .pros-item p {
   font-size: 10px;
-  color: #ffffff;
+  color: #ff00cc82;
   font-style: italic;
 }
 
