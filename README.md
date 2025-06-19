@@ -1,2 +1,2 @@
-In this project, I'm implementing from scratch, without any library, a web page. Using all HTML/CSS/Accessibility/Responsive design knowledges that I have learned.
+This exercise is all about **writing clean, well-organized HTML** that mirrors a real-world designer's layout — the kind you’d receive when working in a professional front-end or full-stack environment. It prepares the groundwork for adding CSS and JavaScript in future phases.In this project, I'm implementing from scratch, without any library, a web page. Using all HTML/CSS/Accessibility/Responsive design knowledges that I have learned.
 No JS. 
