@@ -313,10 +313,7 @@ button:active {
 .contact-container {
     max-width: 600px;
     width: 100%;
-    background: #fff;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 40px 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -339,12 +336,22 @@ form label {
 
 form input,
 form textarea {
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: transparent;
+    padding: 10px 5px;
     font-size: 16px;
+    font-family: inherit;
+    width: 100%;
+    transition: border-color 0.3s;
 }
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #FF6565;
+}
+
 
 form input:focus,
 form textarea:focus {
@@ -359,10 +366,10 @@ form button {
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 10px;
-    width: 100%;
+    margin-left: 240px;
 }
 
 form button:hover {
